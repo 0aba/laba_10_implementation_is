@@ -3,7 +3,7 @@ name: node_app
 on:  # Указал на какие события будет срабатывать CI/CD
   push:
     branches:
-      - "main"
+      - "master"
 
 jobs:
   build:
